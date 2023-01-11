@@ -1,0 +1,29 @@
+{
+  "name": "curso-avanzado-graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "now -t <tu-token>",
+    "start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js --ignore db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.11.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-jwt": "^7.7.7",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^5.0.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.0"
+  }
+}
