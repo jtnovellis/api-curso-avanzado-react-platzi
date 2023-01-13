@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { ApolloServer } from 'apollo-server-express';
+import { ApolloServer } from '@apollo/server';
 import { resolvers, typeDefs } from './schema.js';
 import jwt from 'express-jwt';
 
